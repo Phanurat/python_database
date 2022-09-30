@@ -28,7 +28,7 @@ cursor.execute(sel)
 
 #Cursor Mark to Position
 records = cursor.fetchall()
-print("No, Error!!!", cursor.rowcount)
+print("List ==> ", cursor.rowcount)
 
 #Loop for Show Data
 for row in records:
